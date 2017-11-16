@@ -1,13 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * problem from geekforgeeks
+ * Design a stack with operations on middle element, 
+ * How to implement a stack which will support following operations in O(1) time complexity?
+ * 1) push() which adds an element to the top of stack.
+ * 2) pop() which removes an element from top of stack.
+ * 3) findMiddle() which will return middle element of the stack.
+ * 4) deleteMiddle() which will delete the middle element.
+ * Push and pop are standard stack operations.
  */
 package stackwithmiddleelementdeletion;
 
 /**
  *
- * @author md
+ * @author rumana aktar, idea: geeksforgeeks
  */
 class Node{
     int val, count;
