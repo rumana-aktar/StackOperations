@@ -1,5 +1,5 @@
 /*
- * merge an orderes intevals if there is any overlap
+ * merge an orderes intevals if there is any overlap, idea: geeksforgeeks
  */
 package mergingoverlappedintervals;
 
