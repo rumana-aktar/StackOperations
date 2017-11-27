@@ -20,6 +20,9 @@ public class BalancedExpression {
             char ch=exp.charAt(i);
             if(ch=='(' || ch=='{' || ch=='[')
                 stack.push(ch);
+            else if(ch==')' || ch=='}' || ch==']')
+                if(stack.isEmpty())
+                    return  false;
             else if(ch==')'){
                 if(stack.pop()!='(')
                     return false;
