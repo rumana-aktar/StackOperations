@@ -1,14 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Convert an infix expression to postfix form; idea geeksforgeeks
  */
 package infix_to_postfix;
 import java.util.*;
 import java.util.Stack;
 /**
  *
- * @author md
+ * @author rumana aktar
  */
 
 
@@ -60,10 +58,7 @@ public class Infix_to_Postfix {
         
         return postFix;
         
-    }
-    
-    
-    
+    }    
     
    
     public static void main(String[] args) {
